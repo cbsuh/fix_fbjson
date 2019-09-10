@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This program converts facebook's string encoding in JSON to plain UTF-8.",
   "main": "main.js",
+  "bin": "bin.js",
   "directories": {
     "test": "test"
   },

@@ -2,6 +2,15 @@
 
 This program converts facebook's string encoding in JSON to plain UTF-8.
 
+## Make standalone app
+
+You need [`pkg`](https://www.npmjs.com/package/pkg) to make standalone app.
+
+``` bash
+pkg .
+```
+will make standalone app for windows, linux, macos.
+
 ## Weird Facebook's string encoding in JSON
 
 ### String encoding in Facebook's JSON
@@ -36,6 +45,7 @@ This implies that `\u00ea` in string should be decoded as `00 EA` instead of `EA
 * [The JSON Data Interchange Syntax][json_spec]
 * [Wikipedia: UTF-8][wikipedia_utf_8]
 * [Unicode: Hangul Syllables / Range: AC00–D7AF][unicode_korean_hangul]
+* [Bundle your Node app to a single executable for Windows, Linux and OsX][using_pkg]
 
 [json_spec]: <http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf>
 
@@ -43,3 +53,4 @@ This implies that `\u00ea` in string should be decoded as `00 EA` instead of `EA
 
 [unicode_korean_hangul]: <https://www.unicode.org/charts/PDF/UAC00.pdf>
 
+[using_pkg]: <https://dev.to/jochemstoel/bundle-your-node-app-to-a-single-executable-for-windows-linux-and-osx-2c89>
