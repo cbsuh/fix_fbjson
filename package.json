@@ -1,0 +1,26 @@
+{
+  "name": "fix_fbjson",
+  "version": "1.0.0",
+  "description": "This program converts facebook's string encoding in JSON to plain UTF-8.",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbsuh/fix_fbjson.git"
+  },
+  "keywords": [],
+  "author": "cbsuh.home@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbsuh/fix_fbjson/issues"
+  },
+  "homepage": "https://github.com/cbsuh/fix_fbjson#readme",
+  "dependencies": {
+    "utf8": "^3.0.0"
+  }
+}
